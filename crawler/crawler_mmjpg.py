@@ -11,7 +11,7 @@ s.mount('http://', HTTPAdapter(max_retries=3))
 # 数据库连接信息
 dbhost={
         "host":"127.0.0.1",
-        "dbname":"silumz",
+        "dbname":"94imm",
         "user":"root",
         "password":"heroin123"
     }

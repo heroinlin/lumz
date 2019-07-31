@@ -9,7 +9,7 @@ origin_list=[]
 rlock = threading.RLock()
 dbhost={
         "host":"127.0.0.1",
-        "dbname":"silumz",
+        "dbname":"94imm",
         "user":"root",
         "password":"heroin123"
     }

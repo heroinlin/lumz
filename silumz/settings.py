@@ -98,7 +98,7 @@ WSGI_APPLICATION = 'silumz.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'silumz',
+        'NAME': '94imm',
         'USER': 'root',
         'PASSWORD': 'heroin123',
         'HOST': '127.0.0.1',

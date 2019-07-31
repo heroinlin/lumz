@@ -18,7 +18,7 @@ class Spider():
     s.keep_alive = False
     dbhost={
         "host":"127.0.0.1",
-        "dbname":"silumz",
+        "dbname":"94imm",
         "user":"root",
         "password":"heroin123"
     }

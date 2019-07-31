@@ -3,7 +3,7 @@ import pymysql,time,os,random,shutil,platform
 
 dbhost = {
     "host": "127.0.0.1",
-    "dbname": "silumz",
+    "dbname": "94imm",
     "user": "root",
     "password": "heroin123"
 }
