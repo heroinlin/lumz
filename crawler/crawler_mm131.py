@@ -201,12 +201,9 @@ class Spider():
 
 # page是采集深度，从1开始，采集第一页即采集最新发布。type是源站分类，type_id是对应本站分类的id
 if __name__ == "__main__":
-    # 修改爬取的页数和图片保存路径，page为页数，img_path为路径，自行修改
-    for i in [{"page": 1, "type": "xinggan", "type_id": 1}, {"page": 1, "type": "qingchun", "type_id": 3},
-              {"page": 1, "type": "xiaohua", "type_id": 3}, {"page": 1, "type": "chemo", "type_id": 1},
-              {"page": 1, "type": "qipao", "type_id": 2}, {"page": 1, "type": "mingxing", "type_id": 1}]:
-        spider = Spider(page_num=i.get("page"), img_path='/static/images/mm131/', thread_num=10,
-                        type_id=i.get("type_id"), type=i.get("type"))
+    for i in [{"page": 1, "type": "xinggan", "type_id": 1},{"page":1,"type":"qingchun","type_id": 3}]:
+        spider = Spider(page_num=i.get("page"), img_path='/static/images/', thread_num=10, type_id=i.get("type_id"),
+                        type=i.get("type"),tagslist=["性感美女","诱惑美女","大胸美女","萌妹子"])
         spider.get_url()
         spider.run_1()
         spider.run_2()
