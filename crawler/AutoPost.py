@@ -3,9 +3,9 @@ import pymysql,time,os,random,shutil,platform
 
 dbhost = {
     "host": "127.0.0.1",
-    "dbname": "xxxx",
+    "dbname": "silumz",
     "user": "root",
-    "password": "xxxx"
+    "password": "atlas123"
 }
 
 def do_post(file_dir,sleep_time="0"):

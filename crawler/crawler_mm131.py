@@ -12,7 +12,7 @@ dbhost={
         "host":"127.0.0.1",
         "dbname":"silumz",
         "user":"root",
-        "password":"root"
+        "password":"atlas123"
     }
 
 base_url="https://www.mm131.net"

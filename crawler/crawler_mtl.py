@@ -15,9 +15,9 @@ class Spider():
     s=requests.session()
     dbhost={
         "host":"127.0.0.1",
-        "dbname":"xxxx",
+        "dbname":"silumz",
         "user":"root",
-        "password":"xxxx"
+        "password":"atlas123"
     }
 
     def __init__(self,page_number=10,img_path='imgdir',thread_number=5,type='xinggan',type_id=1):
