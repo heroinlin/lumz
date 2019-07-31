@@ -100,7 +100,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'silumz',
         'USER': 'root',
-        'PASSWORD': 'atlas123',
+        'PASSWORD': 'heroin123',
         'HOST': '127.0.0.1',
         'PORT': '3306',
     }

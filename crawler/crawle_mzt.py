@@ -21,7 +21,7 @@ class Spider():
         "host": "127.0.0.1",
         "dbname": "silumz",
         "user": "root",
-        "password": "atlas123"
+        "password": "heroin123"
     }
 
     def __init__(self, page_num=10, img_path='imgdir', thread_num=5, type="xinggan", type_id=1):
